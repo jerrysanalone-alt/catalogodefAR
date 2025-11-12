@@ -104,50 +104,41 @@
         alt="Sofá moderno beige"
         ar 
         ar-modes="webxr scene-viewer quick-look"
-      <div class="card">
-  <model-viewer 
-    src="mi_mueble.glb" 
-    ios-src="mi_mueble.usdz"
-    alt="Mueble nuevo beige"
-    ar 
-    ar-modes="webxr scene-viewer quick-look"
-    camera-controls 
-    auto-rotate
-    style="background:transparent;">
-  </model-viewer>
-
-  <div class="info">
-    <div style="font-size:1.2rem;font-weight:600;">Mueble Nuevo Beige</div>
-    <div class="small">Visualízalo en tu espacio con AR.</div>
-  </div>
-</div>
+        camera-controls 
+        shadow-intensity="1"
+        exposure="1.2"
+        auto-rotate>
+      </model-viewer>
+      <div class="info">
+        <p class="nombre">Sofá modelo Osaka</p>
+        <p class="precio">$7,499 MXN</p>
+        <div class="botones">
+          <a href="https://wa.me/5215555555555" target="_blank" class="boton">WhatsApp</a>
+          <a href="#" class="boton">Ver en tu espacio</a>
+        </div>
+      </div>
+    </div>
 
     <!-- Producto 2 -->
-  <div class="card">
-  <model-viewer 
-    src="MUEBELE DE PIEL.glb" 
-    ios-src="MUEBLE DE PIEL.usdz"
-    alt="Mueble nuevo beige"
-    ar 
-    ar-modes="webxr scene-viewer quick-look"
- <div class="card">
-  <model-viewer 
-    src="mi_mueble.glb" 
-    ios-src="mi_mueble.usdz"
-    alt="Mueble nuevo beige"
-    ar 
-    ar-modes="webxr scene-viewer quick-look"
-    camera-controls 
-    auto-rotate
-    style="background:transparent;">
-  </model-viewer>
-
-  <div class="info">
-    <div style="font-size:1.2rem;font-weight:600;">Mueble Nuevo Beige</div>
-    <div class="small">Visualízalo en tu espacio con AR.</div>
-  </div>
-</div>
-
-
-
-
+    <div class="producto">
+      <model-viewer 
+        src="mesa.glb" 
+        ios-src="mesa.usdz"
+        alt="Mesa de madera"
+        ar 
+        ar-modes="webxr scene-viewer quick-look"
+        camera-controls 
+        auto-rotate>
+      </model-viewer>
+      <div class="info">
+        <p class="nombre">Mesa de centro Kyoto</p>
+        <p class="precio">$3,999 MXN</p>
+        <div class="botones">
+          <a href="https://wa.me/5215555555555" target="_blank" class="boton">WhatsApp</a>
+          <a href="#" class="boton">Ver en tu espacio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
